@@ -49,7 +49,7 @@ const changeChallFunc = (challID) => {
   }
 };
 
-const changeBtns = document.querySelectorAll(".channel");
+let changeBtns = document.querySelectorAll(".channel");
 
 changeBtns.forEach((btn) => {
   btn.addEventListener("click", function () {
